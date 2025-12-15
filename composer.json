@@ -1,0 +1,30 @@
+{
+    "name": "kcesys/laravel-inertia-genealogy",
+    "description": "Laravel bridge for KCESYS Genealogy library with Inertia support",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KCESYS\\LaravelGenealogy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KCESYS",
+            "email": "dev@kcesys.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0",
+        "kcesys/php-genealogy": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KCESYS\\LaravelGenealogy\\GenealogyServiceProvider"
+            ]
+        }
+    }
+}
