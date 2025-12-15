@@ -8,6 +8,11 @@
             "KCESYS\\LaravelGenealogy\\": "src/"
         }
     },
+    "homepage": "https://github.com/KCESYS/laravel-inertia-genealogy",
+    "support": {
+        "issues": "https://github.com/KCESYS/laravel-inertia-genealogy/issues",
+        "source": "https://github.com/KCESYS/laravel-inertia-genealogy"
+    },
     "authors": [
         {
             "name": "KCESYS",
